@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #e3dfd5;
+}
+
+.bg{
+    background-image: url("/imgs/jumbotron/home/header_home.jpg");
+    /* background-position: center center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+#pp1{
+    background-image: url("/imgs/jumbotron/products/1.jpg");
+}
+
+#pp2{
+    background-image: url("/imgs/jumbotron/products/3.jpg");
+}
+
+.carousel-caption-1 {
+    position: absolute;
+    left: 67%;
+}
+
+/* .carousel-caption-2 {
+    position: absolute;
+    left: 60%;
+    top: 88%;
+} */
+
+/* #pp3{
+    background-image: url("/imgs/jumbotron/products/4.jpg");
+}
+
+#pp4{
+    background-image: url("/imgs/jumbotron/products/1.jpg");
+} */
+
+.my-nav{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+}
+    
+.carousel-item {
+    height: 100vh;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.nav_i{
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: white;
+}
+
+.nav_ii{
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    font-size: 12px;
+}
+
+.footer_i{
+    padding: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: black;
+    font-size: 13px;
+}
+
+.home_header{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.span_your{
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.ymal_price{
+    color: black;
+    font-size: 13px;
+}
+
+.product_text{
+    font-size: 10px;
+}
+
+.cart_titles{
+    font-size: 18px;
+}
+
+.button-57 {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid whitesmoke;
+    color: whitesmoke;
+    display: inline-block;
+    font-size: 15px;
+    line-height: 15px;
+    padding: 15px 15px 8px;
+    text-decoration: none;
+    cursor: pointer;
+    background: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.button-57 span:first-child {
+    position: relative;
+    transition: color 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 10;
+    padding-right: 100px;
+}
+
+.button-57 span:last-child {
+    position: relative;
+    color: black;
+    display: block;
+    bottom: 5px;
+    transition: all 500ms cubic-bezier(0.48, 0, 0.12, 1);
+    z-index: 100;
+    opacity: 0;
+    left: 20%;
+    transform: translateY(225%) translateX(-50%);
+    height: 8px;
+    line-height: 13px;
+}
+
+.button-57:after {
+    content: url("../pages/products.html");
+    position: absolute;
+    bottom: -50%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    transform-origin: bottom center;
+    transition: transform 600ms cubic-bezier(0.48, 0, 0.12, 1);
+    transform: skewY(9.3deg) scaleY(0);
+    z-index: 50;
+}
+
+.button-57:hover:after {
+    transform-origin: bottom center;
+    transform: skewY(9.3deg) scaleY(2);
+}
+
+.button-57:hover span:last-child {
+    transform: translateX(-50%) translateY(-100%);
+    opacity: 1;
+    transition: all 900ms cubic-bezier(0.48, 0, 0.12, 1);
+}
+
+.arrow_span{
+    content: "\27F6";
+}
+
+
